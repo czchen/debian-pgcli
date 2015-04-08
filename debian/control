@@ -1,0 +1,16 @@
+Source: pgcli
+Section: python
+Priority: optional
+Maintainer: ChangZhuo Chen (陳昌倬) <czchen@gmail.com>
+Build-Depends: debhelper (>= 9),
+Standards-Version: 3.9.6
+Homepage: http://pgcli.com
+#Vcs-Git: git://anonscm.debian.org/collab-maint/pgcli.git
+#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/pgcli.git;a=summary
+
+Package: pgcli
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends}, 
+Description: A REPL for Postgres
+ This is a postgres client that does auto-completion and syntax highlighting.

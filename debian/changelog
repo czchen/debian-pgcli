@@ -1,0 +1,5 @@
+pgcli (0.16.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@gmail.com>  Wed, 08 Apr 2015 19:53:16 +0800
